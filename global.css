@@ -1,0 +1,118 @@
+/* Permet de faire tenir les padding & border dans les largeurs des boites */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* fais tenir les images dans leur parent et enlève l'espacement en bottom */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+/* enlève les bordures autour du body */
+body {
+    margin: 0;
+    background:
+        radial-gradient(circle at top left,
+            rgba(120, 0, 255, 0.25),
+            transparent 40%),
+
+        radial-gradient(circle at bottom right,
+            rgba(255, 0, 200, 0.25),
+            transparent 40%),
+
+        linear-gradient(135deg,
+            #250047,
+            #4a0f72,
+            #7a1fa2,
+            #d946ef);
+}
+
+
+
+.body_login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.big_div {
+    border-radius: 50px;
+    width: 70%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+.div_img {
+    width: 50%;
+    background-image: url("Capture d'écran 2026-06-22 140223.png");
+    background-size: cover;
+    background-position: center;
+}
+
+/* background-color: red; */
+
+.login_info {
+    background-color: white;
+
+    gap: 2rem;
+    border: solid 1px green;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    width: 35%;
+
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 80%;
+    /* background-color: red; */
+    margin: 0 auto;
+
+    border-radius: 20px;
+}
+
+.CA {
+    margin: 0 auto;
+}
+
+.forgot {
+    /* background-color: red; */
+    width: 80%;
+    justify-content: space-between;
+    display: flex;
+    gap: 3rem;
+    margin: 0 auto;
+}
+
+.btn_login {
+    display: flex;
+    width: 80%;
+}
+
+button {
+    background-color: #8d2cc0;
+    width: 80%;
+    margin: 0 auto;
+    text-decoration: none;
+
+    a {
+        color: pink;
+    }
+}
+
+
+.titre_login {
+    margin: 0 auto;
+}
