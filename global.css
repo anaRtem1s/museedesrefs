@@ -1,0 +1,152 @@
+/* ----------------------- */
+/* CSS FEATURE-CONTACT */
+/* ----------------------- */
+
+/* Hard Base Reset */
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+}
+
+main{
+    display: grid;
+    grid-template-rows: auto 1fr auto;    
+    /* height: 100%; */
+    flex-grow: 1;
+}
+
+img, picture, video, canvas, svg{
+    display: block;
+    max-width: 100%;
+}
+
+
+/* --- Styles du Formulaire --- */
+.contact-page {
+    padding: 80px 0;
+    background: linear-gradient(135deg, #0f0c1b 0%, #201335 50%, #4a235a 100%);
+    background-attachment: fixed;
+}
+
+.form-container {
+    padding: 2rem;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 8px 32px  0 rgba(0,0,0,0.37);
+    
+    background: rgba(255, 255,255, 0.06);
+    backdrop-filter: blur(12px);
+
+}
+
+.form-container h2 {
+    color: #282828;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(to right, #ffffff, #f472b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.form-container p {
+    margin-bottom: 2rem;
+    color: #ffffff;
+}
+
+/* Groupes de champs */
+.form-group {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.form-group input, 
+.form-group textarea {
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    width: 100%;
+    max-width: 100%;
+    transition: border-color 0.3s;
+}
+
+.form-group textarea {
+    resize: vertical; /* Empêche d'élargir le formulaire horizontalement */
+    min-height: 120px;
+}
+.form-group input:focus, 
+.form-group textarea:focus {
+    outline: none;
+    border-color: #a855f7;
+    box-shadow: 0 0 0 10px rgba(217, 70, 239, 0.5);
+}
+
+
+.btn-submit {
+    width: 100%; /* Largeur totale sur mobile */
+    justify-content: center;
+    border: none;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #d946ef 0%, #a855f7 100%);
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(168, 85, 247, 0.4);
+    font-weight: 600;
+    padding: 1rem;
+    transition: transform .2s, box-shadow .2s;
+    /* cursor: pointer; */
+    cursor: url(https://img.icons8.com/pulsar-gradient/48/cloud-favorites.png), auto;
+    
+}
+
+.btn-submit:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20 px rgba(217, 70, 239, 0.6);
+}
+
+
+/* --- Responsive Desktop (min-width: 768px) --- */
+@media screen and (min-width: 768px) {
+    .form-container {
+        padding: 3rem;
+    }
+    
+    .form-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 3rem;
+    }
+
+    /* Aligne les champs Prénom/Nom et Email/Tel sur une ligne */
+    .form-group-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .btn-submit {
+        width: auto;
+        padding-inline: 3rem;
+    }
+}
+/* ----------------------- */
+/* END CSS FEATURE-CONTACT */
+/* ----------------------- */
