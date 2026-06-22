@@ -116,3 +116,107 @@ button {
 .titre_login {
     margin: 0 auto;
 }
+body{
+  background-color: rgba(142, 41, 162, 0.262);
+}
+
+nav-feat{
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 4px;
+  align-items: end;
+  justify-content: space-around;
+  color :rgb(115, 77, 204);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 6em;
+  font-weight:bolder;
+  background-image: url(./imachref/rever.jpg);
+}
+
+ul{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: end;
+  align-items: end;
+  gap: 5em;
+  background-image: url("./imachref/rever.jpg");
+  font-size: larger;
+}
+
+a{
+  /* HOLA */
+  text-decoration:line-through;
+  color: rgb(218, 11, 254);
+  font-weight: 10px;
+}
+
+a:visited{
+  color: rgb(156, 94, 156);
+}
+
+h1{
+  color: pink;
+  background-color: rgb(148, 111, 186);
+}
+
+div:hover{
+  background-color: rgba(255, 4, 196, 0.717);
+  color:blueviolet;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in-out;
+}
+
+img{
+  width: 50%;
+  aspect-ratio: 2/2;
+  object-fit: cover;
+  position: relative;
+  border-radius: 50%;
+  border-color: white;
+}
+
+img::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(77, 25, 123);
+  top: 0;
+  left: 0;
+}
+
+
+.burger-menu {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 25px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.burger-menu div {
+  display: flex;
+  width: 100%;
+  height: 3px;
+  background-color: rgb(242, 10, 137);
+}
+
+button{
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(132, 1, 255);
+  padding: 0.5rem 1.5rem;
+  color: rgb(143, 3, 236);
+  background: #3F5EFB;
+  background: radial-gradient(circle, rgba(63, 94, 251, 1) 0%, rgba(108, 88, 217, 1) 24%, rgba(252, 70, 107, 1) 100%);
+}
+
+
