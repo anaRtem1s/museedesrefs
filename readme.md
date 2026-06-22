@@ -1,10 +1,14 @@
-to do list
+coucou ecrase pas mon read me
 
 
-dev 1 : ana : tout le boulot
+to do list !! dormir
 
-dev 2 : loHic - à propos
 
-dev 3 : Taaaatiana - contact
+dev 1 : ana : tout le boulot---
 
-dev 4 : soufi - page login
+
+dev 2 : loHic - à propos de mes refs
+
+dev 3 : Taaaatiana - contacte-moi dans mes refs
+
+dev 4 : soufi - page login à mes refs
