@@ -1,4 +1,4 @@
-Not to serious collab ;)
+Not to serious collab 
 
 
 dev 1 : ana  =  tout le boulot--- (done)
