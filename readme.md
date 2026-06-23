@@ -1,14 +1,9 @@
-coucou ecrase pas mon read me
+Not to serious collab 
 
+dev 1 : ana -> tout le boulot--- (done)
 
-to do list !! dormir
+dev 2 : loHic -> à propos de mes refs (done)
 
+dev 3 : taaaatiana -> contacte-moi dans mes refs (done)
 
-dev 1 : ana : tout le boulot---
-
-
-dev 2 : loHic - à propos de mes refs
-
-dev 3 : Taaaatiana - contacte-moi dans mes refs
-
-dev 4 : soufi - page login à mes refs
+dev 4 : soufi -> page login à mes refs (done)
